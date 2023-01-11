@@ -22,6 +22,9 @@ for (int i = 0; i < NumberOfDigits; i++)
     
 }
 
+var str = string.Join(" ", Massiv);
+    Console.WriteLine(str);
+
 bool Sovpadenie()
 {
     bool LogPer = true;
